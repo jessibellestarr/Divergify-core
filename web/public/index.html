@@ -1,0 +1,34 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Divergify</title>
+<meta name="description" content="For brains that zig when the world zags."/>
+<link rel="icon" href="/assets/favicon.png"/>
+<style>
+:root{--g:#00ff9d;--b:#3ec5ff}
+*{box-sizing:border-box}body{margin:0;font-family:Helvetica,Arial,sans-serif;background:radial-gradient(circle at top left,var(--b),var(--g));color:#fff;min-height:100vh;display:flex;flex-direction:column;align-items:center}
+header{padding:32px 12px;text-align:center}
+.logo{width:min(240px,40vw);height:auto;margin:6px auto;display:block}
+h1{margin:6px 0 8px}.sub{opacity:.95;margin:0 0 8px}
+.card{background:rgba(255,255,255,.12);backdrop-filter:blur(12px);padding:20px;border-radius:18px;max-width:560px;width:92vw;box-shadow:0 10px 24px rgba(0,0,0,.25)}
+form{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+input[type=email]{flex:1;min-width:240px;padding:12px;border:none;border-radius:10px}
+button,.btn{display:inline-block;padding:12px 16px;border-radius:10px;border:none;background:#00ff9d;color:#000;font-weight:800;text-decoration:none;cursor:pointer}
+.btn-alt{background:#ff5f5f;color:#fff;display:block;margin:10px auto 0;max-width:320px;text-align:center}
+footer{margin-top:auto;padding:14px;opacity:.85}
+</style></head><body>
+<header>
+  <img class="logo" src="/assets/divergify_logo_transparent_5000.png" alt="Divergify logo"/>
+  <h1>For Brains that Zig When the World Zags</h1>
+  <p class="sub">Managing mental traffic jams, dodging shinies, rerouting creative genius.</p>
+</header>
+<main class="card">
+  <form name="contact" method="POST" data-netlify="true" action="/thank-you.html">
+    <input type="hidden" name="form-name" value="contact" />
+    <input type="email" name="email" placeholder="Enter your email" required />
+    <button type="submit">Notify Me</button>
+  </form>
+  <a class="btn-alt" href="/divergipedia.html">📘 Read Divergipedia</a>
+  <a class="btn-alt" href="https://ko-fi.com/divergify" target="_blank">☕ Fuel the Crusade</a>
+</main>
+<footer>© Divergify</footer>
+</body></html>
