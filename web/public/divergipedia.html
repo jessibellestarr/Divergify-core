@@ -1,0 +1,28 @@
+<!doctype html><html lang='en'><head>
+<meta charset='utf-8'/><meta name='viewport' content='width=device-width,initial-scale=1'/>
+<title>Divergipedia • Divergify</title>
+<style>
+:root{--g:#00ff9d;--b:#3ec5ff}
+body{margin:0;font-family:Helvetica,Arial,sans-serif;background:radial-gradient(circle at top left,var(--b),var(--g));color:#fff}
+header{text-align:center;padding:32px 16px}.wrap{max-width:980px;margin:0 auto;padding:0 16px 60px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.card{background:rgba(255,255,255,.12);backdrop-filter:blur(12px);padding:16px;border-radius:16px}
+.term{font-weight:800}.def{opacity:.95;margin-top:6px;line-height:1.55}
+.btn{display:inline-block;padding:10px 14px;border-radius:12px;background:#ff5f5f;color:#fff;text-decoration:none;font-weight:700;margin:0 6px}
+.ghost{background:transparent;border:2px solid #fff}
+</style></head><body>
+<header><h1>Divergipedia</h1><p>Our living glossary for neurospicy humans.</p>
+<p><a class='btn ghost' href='/'>← Back Home</a> <a class='btn' href='https://ko-fi.com/divergify' target='_blank'>☕ Ko-Fi</a></p></header>
+<div class='wrap'><div id='grid' class='grid'></div></div>
+<script>
+fetch('/divergipedia_full.txt').then(r=>r.text()).then(t=>{
+  const grid=document.getElementById('grid');
+  t.split('\n').filter(Boolean).forEach(line=>{
+    const parts=line.split('—'); if(parts.length<2) return;
+    const term=parts[0].replace(/^\d+\.\s*/,'').trim(); const def=parts[1].trim();
+    const card=document.createElement('div'); card.className='card';
+    card.innerHTML=`<div class="term">${term}</div><div class="def">${def}</div>`;
+    grid.appendChild(card);
+  });
+});
+</script></body></html>
