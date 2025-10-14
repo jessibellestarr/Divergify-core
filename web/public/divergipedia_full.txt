@@ -1,0 +1,100 @@
+1. Tin Foil Hat Mode — Privacy-first setting. Logs less, syncs less, talks less.
+2. Chaos Control — Dashboard for dopamine, deadlines, and detours.
+3. Taskache — When a “simple task” multiplies into a hydra. We decapitate it into baby steps.
+4. Focus Bubble — Temporary distraction shield: pings and shinies benched.
+5. Beat Your Baseline — Daily streak: tiny wins → bigger dopamine rewards.
+6. Attention Altitude — 30,000-ft view of day, energy, and priorities.
+7. Dopamine Breadcrumbs — Small enticing steps that make the next action obvious.
+8. Switch Cost — The brain tax of jumping tasks; Sidekick asks if the switch is worth it.
+9. Procrastiplanning — Planning as a way to avoid doing. We cap it and push one micro-move.
+10. Shiny Object Siren — New idea that pulls you off course; Sidekick bookmarks it safely.
+11. Done Zone — A tiny block of time (5–15 min) designed to guarantee a quick win.
+12. Context Cliff — Losing the thread after an interruption; Sidekick leaves markers.
+13. Brain Battery — Subjective energy gauge; powers nudges and schedule.
+14. Sensory Overload Valve — Fast reset actions to lower noise and load.
+15. Deadline Dopamine — Time pressure used safely to boost initiation.
+16. Streak Freeze — One-time skip token to protect long streaks from life chaos.
+17. Body Double Ping — Gentle prompt to start while someone “sits” with you virtually.
+18. Task Tetris — Repacking tasks to fit available energy and time.
+19. Focus Campfire — Short, cozy session with limited scope and visible progress.
+20. Micro-Momentum — Momentum earned from finishing tiny atomic actions.
+21. Cognitive Drag — The sludge that makes starting hard; we reduce it via setup macros.
+22. Setup Macro — One-click preparation steps for recurring tasks.
+23. Decision Diet — Limit choices; pre-commit defaults.
+24. Ritual Ramp — Predictable pre-focus routine to reduce friction.
+25. Context Passport — A note bundle that lets you re-enter a task without reloading the brain.
+26. Nursery for Ideas — Queue where shiny ideas wait without hijacking today.
+27. Noise Budget — Intentional cap on notifications and inputs per block.
+28. Tab Amnesty — End-of-day snapshot + archive; no shame closing tabs.
+29. Failure-Safe — The smallest version that still counts as done.
+30. Focus Debt — Time owed after fragmentation; repaid with longer bubbles.
+31. Anchor Task — The one task that stabilizes the day if all else fails.
+32. Spoon Ledger — Energy accounting for low-spoon days.
+33. Edge Days — Days spent at the limits; plans switch to elastic mode.
+34. Elastic Plan — Stretchy plan with optional steps that expand/contract.
+35. Scope Creep Net — Alerts when tasks secretly grow; prompts to rescope.
+36. Checkpoint Cheer — Micro-celebration at key intervals to reinforce progress.
+37. Window of Maybe — Short window to try an avoided task without commitment.
+38. Parking Lot — Place to dump unrelated thoughts safely.
+39. Drag-and-Drop Day — Rearrange blocks visually until it “clicks”.
+40. Compassion Mode — Language that removes shame; metrics emphasize learning.
+41. Sensory Sanctuary — Preset that tunes sound/light/inputs for work.
+42. Time-Blindness Beacon — Visible timers and progress bars everywhere.
+43. Hyperfocus Harness — Start/stop guardrails for deep dives.
+44. Interrupt Insurance — Auto-save context when interrupted.
+45. Pom-Flex — Flexible pomodoro (15–35 work / 3–10 rest) based on energy.
+46. Mini-Missions — Tiny quests with clear end states.
+47. First Domino — The one action that triggers motion on a stuck task.
+48. Friction Hunt — Identify what’s heavy and remove a single blocker.
+49. Two-Tabs Rule — Active work tabs capped at two during focus bubbles.
+50. Quiet Queue — Muted notifications with scheduled catch-ups.
+51. Reset Ritual — Step-by-step recovery after derailment.
+52. Glitch Log — Non-judgy log of what broke + one fix.
+53. Comfort Quest — One gentle task when motivation is near zero.
+54. Nervous System Note — Track body cues to time focus windows.
+55. Sprint & Sink — Short surge followed by deliberate decompression.
+56. Dopamine Pantry — List of healthy rewards ready to grab.
+57. Micro-Mastery — Get just good enough to start; perfect later.
+58. Stall Detector — Detects looping behaviors; suggests a smaller entry.
+59. Energy Forecast — Predicts best hours for creative vs. admin.
+60. Boredom Alarm — Cues variety before the brain rebels.
+61. Switch-Consent Check — Asks “why now?” before abandoning task.
+62. Rule of Return — Always leave a next action note before pausing.
+63. Context Cache — Autosaves key facts for later retrieval.
+64. Guilt Off-Ramp — Script to end unhelpful self-talk quickly.
+65. Kind Deadline — Negotiable deadlines that still move work forward.
+66. Hard Stop Halo — Ending buffer to prevent spillover stress.
+67. Task Ladder — Rungs from “absurdly easy” to “full task”; climb as able.
+68. Safety Confetti — Celebration text that avoids overwhelm and noise.
+69. Phone Faraday — Modes that cut doom loops while keeping essentials.
+70. Flow Seeds — Micro-setup: music, lighting, note — to trigger immersion.
+71. AM Rehearsal — Quick morning mental run-through to reduce surprises.
+72. Night Glide — Gentle wind-down that protects tomorrow’s energy.
+73. Admin Alley — Small daily window for forms, email, bills.
+74. Snackable Start — Start with 60-second actions to puncture dread.
+75. Friendly Friction — Just enough commitment to start (timer, buddy).
+76. One-Screen Rule — One active screen during focus.
+77. Nudge Tone — Choose funny / firm / soothing.
+78. Win Archive — Gallery of completions for motivation.
+79. Edge Detector — Spots perfectionism spikes; proposes “good enough.”
+80. Scope Snapshot — Before/after view to see actual progress.
+81. Task DNA — Break down the real parts so future work is faster.
+82. Ghost Tasks — Name invisible emotional tasks to shrink them.
+83. Recovery Slots — Auto white space after heavy social/brain loads.
+84. Auto-Triage — Sort incoming tasks into Now / Next / Nursery.
+85. Role-Swap — Kickstart by helping someone else first.
+86. Gentle Gate — Say no without the guilt script.
+87. Decaf Dopamine — Low-stim rewards that don’t hijack the day.
+88. Body Budget — Balance sensory, social, cognitive spend.
+89. Context Currency — Trade time for clarity; prep once, save hours later.
+90. Compassion Stopwatch — Time shame spirals; reduce the trend.
+91. Interruptible Work — Keep a list of safe-to-interrupt tasks.
+92. Offline Oasis — Pre-download work to be screen-optional.
+93. Bias Bouncer — Check catastrophic thinking with data.
+94. Anchor Music — Playlist that says “it’s time” to the nervous system.
+95. Micro-Review — 2-minute “still on track?” checks.
+96. Fresh Start Slot — Where you restart if the day derailed.
+97. Sandwich Tasks — Hard task between two gentle ones.
+98. Micro-handoff — Leave future-you one ultra-specific instruction.
+99. Open Loop Ledger — List of little nags until they’re closed.
+100. Almost There Alert — Detects when you’re 80% done; gives the push.
