@@ -1,6 +1,10 @@
 [build]
-  command = ""
   publish = "web/public"
+  command = ""
+
+[context.production]
+  environment = { NODE_VERSION = "18" }
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
