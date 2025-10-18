@@ -14,22 +14,40 @@ export default function App(){
   const [input, setInput] = useState('');
   const [tinFoil, setTinFoil] = useState(false);
   const [nudge, setNudge] = useState<string | null>(null);
+  const [hydrated, setHydrated] = useState(false);
   const pulse = useSharedValue(1);
   const appState = useRef(AppState.currentState);
 
   // Load settings/tasks
-  useEffect(()=>{ (async()=>{
-    const [t, tf] = await Promise.all([
-      AsyncStorage.getItem(K_TASKS),
-      AsyncStorage.getItem(K_TINFOIL)
-    ]);
-    if(t) setTasks(JSON.parse(t));
-    if(tf) setTinFoil(tf==='1');
-  })(); },[]);
+  useEffect(()=>{
+    let active = true;
+    (async()=>{
+      try {
+        const [t, tf] = await Promise.all([
+          AsyncStorage.getItem(K_TASKS),
+          AsyncStorage.getItem(K_TINFOIL)
+        ]);
+        if(!active) return;
+        if(t) setTasks(JSON.parse(t));
+        if(tf) setTinFoil(tf==='1');
+      } finally {
+        if(active) setHydrated(true);
+      }
+    })();
+    return ()=>{ active = false; };
+  },[]);
 
   // Persist tasks/settings unless Tin Foil is ON
-  useEffect(()=>{ if(!tinFoil) AsyncStorage.setItem(K_TASKS, JSON.stringify(tasks)); },[tasks, tinFoil]);
-  useEffect(()=>{ AsyncStorage.setItem(K_TINFOIL, tinFoil?'1':'0'); },[tinFoil]);
+  useEffect(()=>{
+    if(hydrated && !tinFoil){
+      AsyncStorage.setItem(K_TASKS, JSON.stringify(tasks));
+    }
+  },[tasks, tinFoil, hydrated]);
+  useEffect(()=>{
+    if(hydrated){
+      AsyncStorage.setItem(K_TINFOIL, tinFoil?'1':'0');
+    }
+  },[tinFoil, hydrated]);
 
   // Task add
   const addTask = () => {
